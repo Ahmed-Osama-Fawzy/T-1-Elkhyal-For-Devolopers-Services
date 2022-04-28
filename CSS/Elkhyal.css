@@ -20,24 +20,22 @@ html {
     margin: auto;
 }
 /*Media Sizes*/
-@media (min-width: 768px) {
-    .Container {
-      width: 750px;
+@media (max-width: 800px) {
+    header .Container .Logo {
+        width: 80%;
+        padding: 10%;
     }
-  }
-  /* Medium */
-  @media (min-width: 992px) {
-    .Container {
-      width: 970px;
+    header .Container > ul {
+        width: 100%;
     }
-  }
-  /* Large */
-  @media (min-width: 1200px) {
-    .Container {
-      width: 1170px;
+    .Landing .Container {
+        display: block !important;
     }
-  }
-
+    .Landing .Container > div{
+        padding: 10%;
+        width: 80% ;
+    }
+}
 h1 {
     margin: 60px calc(50% - 140px) !important;
     text-align: center;
